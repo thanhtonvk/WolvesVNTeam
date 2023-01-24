@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="WolvesVNTeam.GUI.MainUITabbed.SignalUI"
+            xmlns:local="clr-namespace:WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed;assembly=WolvesVNTeam"
+            BarBackgroundColor="#15152B" NavigationPage.HasNavigationBar="False">
+    <local:SignalVIPUI Title="Tín hiệu WolvesVN" />
+    <local:SignalNormalUI Title="Cập nhật tín hiệu" />
+    <local:GoldsUI Title="XAU/GOLD"/>
+</TabbedPage>

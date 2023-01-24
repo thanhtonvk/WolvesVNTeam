@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.TradingViewUI" BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" Margin="0,40,0,0">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="5,5,5,5">
+                    <Label x:Name="btnBack" Text="Trở về" TextColor="DodgerBlue" FontSize="20" HorizontalOptions="StartAndExpand" />
+                    
+                    <Label x:Name="txtSymbol" Text="" HorizontalOptions="CenterAndExpand" TextColor="Orange"
+                           VerticalOptions="EndAndExpand" FontAttributes="Bold" />
+                    <Label x:Name="txtChiBao" Text="Chỉ báo" TextColor="Red" HorizontalOptions="EndAndExpand" FontAttributes="Bold"/>
+                   
+                </StackLayout>
+                <BoxView BackgroundColor="Black" HeightRequest="1" />
+                <Frame OutlineColor="Transparent" BackgroundColor="WhiteSmoke" CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0" Orientation="Vertical">
+                            <Label FontSize="Medium" Text="" TextColor="ForestGreen" x:Name="txtCurren"
+                                   FontAttributes="Bold" />
+                            <StackLayout Orientation="Horizontal">
+                                <Label FontSize="Small" Text="" TextColor="Black" x:Name="txtPrev" />
+                                <Label FontSize="12" TextColor="Red" Text="" VerticalOptions="EndAndExpand"
+                                       x:Name="txtPercent" />
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1" Orientation="Vertical">
+                            <Label Text="Giá cao nhất trong ngày" TextColor="Black" />
+                            <Label TextColor="Black" Text="" FontAttributes="Bold" x:Name="txtMax" />
+                            <Label Text="Giá thấp nhất trong ngày" TextColor="Black" />
+                            <Label TextColor="Black" Text="" FontAttributes="Bold" x:Name="txtMin" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+                <WebView x:Name="webViewTrading" VerticalOptions="FillAndExpand" Margin="-8,0,-8,0" WidthRequest="Infinity" />
+               </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

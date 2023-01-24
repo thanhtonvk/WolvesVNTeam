@@ -1,0 +1,29 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a abrt while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x10f4b8695 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : mono_dump_native_crash_info
+	0x10f4ad16e - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : mono_handle_native_crash
+	0x10f4b7ccf - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : sigabrt_signal_handler
+	0x7fff6da1dd7d - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x7fff8a6d00e0 - Unknown
+	0x7fff20108684 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_c.dylib : abort
+	0x10f6a7f96 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : xamarin_unhandled_exception_handler
+	0x10f566dc5 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : mono_invoke_unhandled_exception_hook
+	0x10f4acd83 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : mono_handle_exception_internal
+	0x10f4ab2a9 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : mono_handle_exception
+	0x10f42d460 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : mono_amd64_throw_exception
+	0x10faca5b0 - Unknown
+	0x10f6a7c1a - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : xamarin_process_managed_exception
+	0x10f6aec5d - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : xamarin_invoke_trampoline
+	0x10f6b0376 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : xamarin_arch_trampoline
+	0x10f6b0e76 - /Users/tondz/Library/Developer/CoreSimulator/Devices/B07F6D46-6D41-4452-B041-04373BD4CB79/data/Containers/Bundle/Application/AA9877A8-5AEA-4B52-BC0E-50F08D8507F6/WolvesVNTeam.iOS.app/WolvesVNTeam.iOS : xamarin_x86_64_common_trampoline
+	0x7fff20845992 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/Foundation.framework/Foundatio

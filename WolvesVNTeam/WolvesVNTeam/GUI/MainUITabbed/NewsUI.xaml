@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="WolvesVNTeam.GUI.MainUITabbed.NewsUI"
+            xmlns:local="clr-namespace:WolvesVNTeam.GUI.MainUITabbed.NewUITabbed;assembly=WolvesVNTeam"
+            BarBackgroundColor="#15152B" NavigationPage.HasNavigationBar="False">
+    <local:NewsVIPUI Title="Tin tức nóng" />
+    <local:NewsNormalUI Title="Tin tức" />
+    <local:NewsWolvesUI Title="Tin tức Wolves" />
+    <local:SanGiaoDichUI Title="WolvesVN EA" />
+</TabbedPage>

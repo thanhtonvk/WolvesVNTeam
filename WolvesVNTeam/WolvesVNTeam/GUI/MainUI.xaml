@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="WolvesVNTeam.GUI.MainUI"
+            xmlns:local="clr-namespace:WolvesVNTeam.GUI.MainUITabbed;assembly=WolvesVNTeam"
+            BarBackgroundColor="#15152B" NavigationPage.HasNavigationBar="False">
+    <local:TradingUI x:Name="TradingUi" />
+    <local:SignalUI x:Name="SignalUi" />
+    <local:StatitiscsUI x:Name="StatitiscsUi" />
+    <local:NewsUI x:Name="NewsUi" />
+    <local:UserUI x:Name="UserUi" />
+</TabbedPage>

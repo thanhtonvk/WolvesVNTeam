@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.InputInviteUI"
+             BackgroundColor="#15152B">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <Image x:Name="Img_Logo" WidthRequest="150" Margin="0,30,0,0" Source="/Assets/logo.png" />
+                <Label Text="Bạn tốt - Tôi tốt - Chúng ta tốt" TextColor="#FFB400" FontSize="25"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold" FlowDirection="MatchParent" />
+                <Grid Margin="0,20,0,0"
+                      HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                    <BoxView Color="#0D0D2A"
+                             CornerRadius="40,40,0,0" />
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical" Margin="30,30,30,30">
+                            <Label Text="Chào mừng đến với WolvesVN" FontSize="18" HorizontalOptions="Center"
+                                   TextColor="White" />
+                            <Label Text="Nhập tài khoản giới thiệu" FontSize="25" HorizontalOptions="Center"
+                                   TextColor="White"
+                                   FontAttributes="Bold" />
+                            <Label Text="Mã người giới thiệu" TextType="Text" FontSize="18" TextColor="White"
+                                   Margin="0,30,0,0" />
+                            <Entry Text="" x:Name="txtIDPresenter" Placeholder="Nhập mã người giới thiệu"
+                                   HeightRequest="40" Keyboard="Numeric"
+                                   PlaceholderColor="GhostWhite" />
+
+                            <Button x:Name="btnConfirm" Margin="0,20,0,0" Text="Xác nhận" BackgroundColor="DarkBlue"
+                                    TextColor="White" CornerRadius="10" />
+
+                            <Button x:Name="btnSkip" Text="Bỏ qua" TextColor="White"
+                                    HorizontalOptions="Center"
+                                    FontAttributes="Bold" FontSize="15" BackgroundColor="#00FFFFFF" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

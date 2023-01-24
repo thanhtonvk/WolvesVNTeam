@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.MainUITabbed.UserUI"
+             BackgroundColor="#0D0D2A">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="0,40,0,0">
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="imgAvatar" HeightRequest="80" WidthRequest="80" Source="/Assets/logo.png"
+                       Margin="5,5,5,5" />
+
+                <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                    <Label Text="Tên" x:Name="txtName" TextColor="White" />
+                    <Label Text="ID: " TextColor="Red" x:Name="txtID" />
+                    <!--<StackLayout Orientation="Horizontal">
+                        <Image x:Name="logo_wol" Source="/Assets/logo.png" WidthRequest="20" />
+                        <Label Text="Wolves: " TextColor="Orange" x:Name="txtWolves" />
+                    </StackLayout>-->
+
+                </StackLayout>
+            </StackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="White" />
+            <StackLayout Orientation="Vertical" Margin="20,5,20,5">
+                <Button x:Name="btnUpdate" Margin="0,10,0,0" Text="Cập nhật thông tin" BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+                <!-- <Button x:Name="btnLoadWol" Margin="0,10,0,0" Text="Nạp Wol" BackgroundColor="#15152B" -->
+                <!--         TextColor="White" CornerRadius="10" /> -->
+                <!-- <Button x:Name="btnRegisterVIP" Margin="0,10,0,0" Text="Đăng ký tài khoản VIP" -->
+                <!--         BackgroundColor="#15152B" -->
+                <!--         TextColor="White" CornerRadius="10" /> -->
+                
+                <Button x:Name="btnDoiTac" Margin="0,10,0,0" Text="Đối tác" BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+                <Button x:Name="btnLienHe" Margin="0,10,0,0" Text="Liên hệ" BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+                <Button x:Name="btnChangePass" Margin="0,10,0,0" Text="Đổi mật khẩu" BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+                 <Button x:Name="btnDelete" Margin="0,10,0,0" Text="Xoá tài khoản" BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+                <Button x:Name="btnWeb" Margin="0,10,0,0" Text="Trang web"
+                        BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+                <Button x:Name="btnLogout" Margin="0,10,0,0" Text="Đăng xuất" BackgroundColor="#15152B"
+                        TextColor="White" CornerRadius="10" />
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

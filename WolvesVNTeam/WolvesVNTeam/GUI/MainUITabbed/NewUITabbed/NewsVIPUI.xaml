@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.MainUITabbed.NewUITabbed.NewsVIPUI"
+             BackgroundColor="#0D0D2A">
+    <ContentPage.Content>
+        <StackLayout Margin="0,40,0,0">
+            <ListView x:Name="ListViewNews" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#15152B">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                                <Frame OutlineColor="Transparent" BackgroundColor="#15152B" CornerRadius="10">
+                                    <StackLayout>
+                                        <Label Text="{Binding Date}" VerticalOptions="Center" HorizontalOptions="Fill"
+                                               TextColor="White" />
+                                        <Label Text="{Binding Content}" TextColor="White" FontAttributes="Bold"
+                                               FontSize="15" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding Time}" TextColor="White" FontAttributes="Italic" HorizontalTextAlignment="End"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

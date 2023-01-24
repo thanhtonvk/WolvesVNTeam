@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.LoadWolUI"
+             BackgroundColor="#15152B">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="0,20,0,0">
+            <Frame OutlineColor="Transparent" BackgroundColor="#0D0D2A">
+
+                <Label x:Name="btnBack" Text="Trở về" VerticalOptions="Center" FontAttributes="Bold" FontSize="Medium" TextColor="White"/>
+            </Frame>
+            <ListView x:Name="ListViewSymbol" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#0D0D2A">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                       <ViewCell>
+                           <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#0D0D2A" CornerRadius="20">
+                               <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                                   <StackLayout Orientation="Horizontal">
+                                       <Image x:Name="img_logo" WidthRequest="30" Source="/Assets/logo.png" />
+                                       <Label Text="{Binding Amount}" VerticalOptions="Center" FontSize="Medium" TextColor="White"/>
+                                   </StackLayout>
+                                   <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                                       <Label Text="{Binding GetMoney}" HorizontalTextAlignment="Start" TextColor="OrangeRed"
+                                              FontAttributes="Bold" FontSize="Large" VerticalTextAlignment="Center" />
+                                       <Button BackgroundColor="Orange" Text="Nạp ngay" BorderRadius="10"
+                                               TextColor="White" HorizontalOptions="EndAndExpand" Clicked="Button_OnClicked" CommandParameter="{Binding Amount}"/>
+                                   </StackLayout>
+                               </StackLayout>
+                           </Frame>
+                       </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

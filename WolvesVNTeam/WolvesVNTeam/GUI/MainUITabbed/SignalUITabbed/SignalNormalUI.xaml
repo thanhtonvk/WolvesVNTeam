@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed.SignalNormalUI"
+             BackgroundColor="#0D0D2A">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ListViewSignal" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#15152B">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                                <Frame OutlineColor="Transparent" BackgroundColor="#15152B" CornerRadius="10">
+                                    <StackLayout>
+                                        <Label Text="{Binding GetDate}" VerticalOptions="Center" HorizontalOptions="Fill"
+                                               TextColor="White" />
+
+                                        <Image Source="{Binding Image}" />
+                                        <Label Text="{Binding Content}" TextColor="LimeGreen" FontAttributes="Bold"
+                                               FontSize="18" TextType="Html"/>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="TP: " TextColor="White" />
+                                            <Label Text="{Binding TP}" TextColor="White" FontAttributes="Bold" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="SL: " TextColor="White" />
+                                            <Label Text="{Binding SL}" TextColor="White" FontAttributes="Bold" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

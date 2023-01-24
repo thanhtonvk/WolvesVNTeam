@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.MainUITabbed.StatitiscsUI"
+             BackgroundColor="#0D0D2A">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="0,40,0,0">
+            <Frame OutlineColor="Transparent" BackgroundColor="#15152B" CornerRadius="10">
+                <StackLayout Orientation="Vertical">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" Text="" HorizontalTextAlignment="Center"
+                               FontAttributes="Bold" TextColor="Orange" FontSize="Medium" x:Name="txtPip" />
+                        <Label Grid.Column="1" Grid.Row="0" Text="" HorizontalTextAlignment="Center"
+                               FontAttributes="Bold" TextColor="ForestGreen" FontSize="Medium" x:Name="txtTrade" />
+                        <Label Grid.Column="2" Grid.Row="0" Text="" HorizontalTextAlignment="Center"
+                               TextColor="Orange" FontAttributes="Bold" FontSize="Medium" x:Name="txtWinrate" />
+
+                        <Label Grid.Column="0" Grid.Row="1" Text="Pips" HorizontalTextAlignment="Center"
+                               TextColor="BlueViolet" />
+                        <Label Grid.Column="1" Grid.Row="1" Text="Trades" HorizontalTextAlignment="Center"
+                               TextColor="BlueViolet" />
+                        <Label Grid.Column="2" Grid.Row="1" Text="Win rates" HorizontalTextAlignment="Center"
+                               TextColor="BlueViolet" />
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <ListView x:Name="ListViewPip" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#15152B">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                                <Frame OutlineColor="Transparent" BackgroundColor="#15152B" CornerRadius="10">
+                                    <StackLayout>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <StackLayout Grid.Column="0" Orientation="Vertical">
+                                                <Label Text="{Binding Money}" FontAttributes="Bold"
+                                                       TextColor="White" HorizontalTextAlignment="Start" />
+                                                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                                                    <Label Text="TP " TextColor="NavajoWhite" />
+                                                    <Label Text="{Binding TP}" TextColor="Coral" />
+                                                </StackLayout>
+                                            </StackLayout>
+                                            <StackLayout Grid.Column="1" Orientation="Vertical">
+                                                <Label Text="{Binding PipMoi}" FontAttributes="Bold"
+                                                       TextColor="ForestGreen" HorizontalTextAlignment="Center"
+                                                       FontSize="Medium" />
+                                                <Label Text="{Binding PipCu}" TextColor="AntiqueWhite"
+                                                       HorizontalTextAlignment="Center" FontSize="Small" />
+                                            </StackLayout>
+                                            <StackLayout Grid.Column="2">
+                                                <Label Text="{Binding Sum}" FontAttributes="Bold"
+                                                       TextColor="OrangeRed" HorizontalTextAlignment="End" />
+                                                <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                                    <Label Text="SL " TextColor="NavajoWhite" />
+                                                    <Label Text="{Binding SL}" TextColor="Coral" />
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Grid>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

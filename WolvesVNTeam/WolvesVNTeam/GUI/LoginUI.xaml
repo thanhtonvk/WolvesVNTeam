@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.LoginUI"
+             BackgroundColor="#15152B">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <Image x:Name="Img_Logo" WidthRequest="150" Margin="0,30,0,0" Source="/Assets/logo.png" />
+                <Label Text="Bạn tốt - Tôi tốt - Chúng ta cùng tốt" TextColor="#FFB400" FontSize="20"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold" FlowDirection="MatchParent" />
+                <Grid Margin="0,20,0,0"
+                      HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                    <BoxView Color="#0D0D2A"
+                             CornerRadius="40,40,0,0" />
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical" Margin="30,30,30,30">
+                            <Label Text="Chào mừng đến với WolvesVN" FontSize="18" HorizontalOptions="Center"
+                                   TextColor="White" />
+                            <Label Text="Đăng nhập" FontSize="25" HorizontalOptions="Center" TextColor="White"
+                                   FontAttributes="Bold" />
+                            <Label Text="Email" TextType="Text" FontSize="18" TextColor="White" />
+                            <Entry Text="" x:Name="txtEmail" Placeholder="Nhập địa chỉ email" HeightRequest="40"
+                                   Keyboard="Email"
+                                   PlaceholderColor="GhostWhite" />
+                            <Label Text="Mật khẩu" TextType="Text" FontSize="18" TextColor="White" />
+                            <Entry Text="" x:Name="txtPassword" Placeholder="Nhập mật khẩu" HeightRequest="40"
+                                   PlaceholderColor="GhostWhite" IsPassword="True" />
+                            <Label x:Name="TxtForgot" Text="Quên mật khẩu" HorizontalOptions="End"
+                                   FontAttributes="Bold" TextColor="White" />
+
+                            <Button x:Name="btnLogin" Margin="0,20,0,0" Text="Đăng nhập" BackgroundColor="DarkBlue"
+                                    TextColor="White" CornerRadius="10" />
+
+                            <Label Text="Bạn chưa có tài khoản?" HorizontalOptions="Center" TextColor="White" />
+                            <Button x:Name="btnRegister" Text="Đăng ký ngay" TextColor="White"
+                                    HorizontalOptions="Center"
+                                    FontAttributes="Bold" FontSize="15" BackgroundColor="#00FFFFFF" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

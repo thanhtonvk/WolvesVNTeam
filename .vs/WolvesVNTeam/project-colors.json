@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4fe0dfe6-966c-4814-9975-5541c280e8c7": {
+      "ProjectGuid": "4fe0dfe6-966c-4814-9975-5541c280e8c7",
+      "DisplayName": "WolvesVNTeam.Android",
+      "ColorIndex": 0
+    },
+    "fd9003a7-14a2-4a76-9bf5-624b12433a47": {
+      "ProjectGuid": "fd9003a7-14a2-4a76-9bf5-624b12433a47",
+      "DisplayName": "WolvesVNTeam",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

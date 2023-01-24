@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.LienHeUI"
+             BackgroundColor="#15152B">
+    <ContentPage.Content>
+        <StackLayout Margin="0,20,0,0">
+            <Frame OutlineColor="Transparent" BackgroundColor="#0D0D2A">
+                <Label x:Name="btnBack" Text="Trở về" VerticalOptions="Center" FontAttributes="Bold" FontSize="Medium"
+                       TextColor="White" />
+            </Frame>
+            <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#0D0D2A" CornerRadius="20">
+                <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                    <Label Text="Địa chỉ" FontAttributes="Bold" TextColor="OrangeRed"
+                           HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" FontSize="Medium"/>
+                    <Label x:Name="txtAddress" TextColor="White" FontSize="Medium"/>
+                </StackLayout>
+            </Frame>
+            <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#0D0D2A" CornerRadius="20">
+                <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                    <Label Text="Email" FontAttributes="Bold" TextColor="OrangeRed"
+                           HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" FontSize="Medium"/>
+                    <Label x:Name="txtEmail" TextColor="White" FontSize="Medium"/>
+                </StackLayout>
+            </Frame>
+            <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#0D0D2A" CornerRadius="20">
+                <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                    <Label Text="Hotline" FontAttributes="Bold" TextColor="OrangeRed" FontSize="Medium"
+                           HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                    <Label x:Name="txtPhoneNumber" TextColor="White" FontSize="Medium"/>
+                </StackLayout>
+            </Frame>
+            <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#0D0D2A" CornerRadius="20">
+                <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                    <Label Text="Website" FontAttributes="Bold" TextColor="OrangeRed" FontSize="Medium"
+                           HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                    <Label x:Name="txtWebsite" TextColor="White" FontSize="Medium"/>
+                </StackLayout>
+            </Frame>
+            <Frame OutlineColor="Transparent" Margin="5" BackgroundColor="#0D0D2A" CornerRadius="20">
+                <StackLayout Orientation="Vertical" Margin="8,8,8,8">
+                    <Label Text="Telegram" FontAttributes="Bold" TextColor="OrangeRed" FontSize="Medium"
+                           HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Start" />
+                    <Label x:Name="txtTelegram" TextColor="White" FontSize="Medium"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

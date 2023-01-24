@@ -1,0 +1,92 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_UIApplicationMain
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

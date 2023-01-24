@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WolvesVNTeam.GUI.UpdateAccountUI"
+             BackgroundColor="#15152B">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout Margin="0,20,0,0">
+                <Grid Margin="0,20,0,0"
+                      HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical" Margin="30,30,30,30">
+                            <Label Text="Cập nhật thông tin" FontSize="25" HorizontalOptions="Center"
+                                   FontAttributes="Bold" TextColor="White" />
+                            <Label Text="Họ" TextColor="White" FontSize="18" TextType="Text" />
+                            <Entry x:Name="txtFirstName" Placeholder="Nhập họ"  HeightRequest="40"
+                                   PlaceholderColor="DarkGray" />
+                            <Label Text="Tên" TextColor="White" FontSize="18" TextType="Text" />
+                            <Entry x:Name="txtLastName" Placeholder="Nhập tên"  HeightRequest="40"
+                                   PlaceholderColor="DarkGray" />
+                            <!--<Label Text="Ngày sinh" TextColor="White" FontSize="18" TextType="Text" />
+                            <DatePicker x:Name="txtDatePicker" HeightRequest="40" />-->
+                            <Button x:Name="btnUpdate" Margin="0,20,0,0" Text="Cập nhật thông tin"
+                                    BackgroundColor="DarkBlue"
+                                    TextColor="White" CornerRadius="10" />
+                            <Button x:Name="btnBack" Margin="0,20,0,0" Text="Trở lại"
+                                    BackgroundColor="DarkOrange"
+                                    TextColor="White" CornerRadius="10" />
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

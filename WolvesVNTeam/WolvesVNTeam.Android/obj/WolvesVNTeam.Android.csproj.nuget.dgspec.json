@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
+        "projectName": "WolvesVNTeam.Android",
+        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
+        "packagesPath": "/Users/tondz/.nuget/packages/",
+        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tondz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+                "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.534, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Toasts.Forms.Plugin": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.HotReload": {
+              "target": "Package",
+              "version": "[2.0.16, )"
+            }
+          }
+        }
+      }
+    },
+    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "projectName": "WolvesVNTeam",
+        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "packagesPath": "/Users/tondz/.nuget/packages/",
+        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tondz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.534, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Toasts.Forms.Plugin": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            },
+            "Xamarin.HotReload": {
+              "target": "Package",
+              "version": "[2.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
