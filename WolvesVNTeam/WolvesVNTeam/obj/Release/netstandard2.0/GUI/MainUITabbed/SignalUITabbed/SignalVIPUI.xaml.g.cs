@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/MainUITabbed/SignalUITabbed/SignalVIPUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\MainUITabbed\\SignalUITabbed\\SignalVIPUI.xaml")]
     public partial class SignalVIPUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

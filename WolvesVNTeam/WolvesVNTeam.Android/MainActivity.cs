@@ -4,6 +4,7 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 using Plugin.Toasts;
+using Xamarin.Forms;
 
 namespace WolvesVNTeam.Droid
 {
@@ -18,9 +19,9 @@ namespace WolvesVNTeam.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            DependencyService.Register<ToastNotification>();
             UserDialogs.Init(this);
             ToastNotification.Init(this);
-
             LoadApplication(new App());
         }
 

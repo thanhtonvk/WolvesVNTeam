@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI.MainUITabbed {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/MainUITabbed/StatitiscsUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\MainUITabbed\\StatitiscsUI.xaml")]
     public partial class StatitiscsUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

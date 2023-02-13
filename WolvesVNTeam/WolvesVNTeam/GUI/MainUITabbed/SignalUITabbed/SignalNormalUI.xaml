@@ -19,14 +19,7 @@
                                         <Image Source="{Binding Image}" />
                                         <Label Text="{Binding Content}" TextColor="LimeGreen" FontAttributes="Bold"
                                                FontSize="18" TextType="Html"/>
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="TP: " TextColor="White" />
-                                            <Label Text="{Binding TP}" TextColor="White" FontAttributes="Bold" />
-                                        </StackLayout>
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="SL: " TextColor="White" />
-                                            <Label Text="{Binding SL}" TextColor="White" FontAttributes="Bold" />
-                                        </StackLayout>
+                                       
                                     </StackLayout>
                                 </Frame>
                             </StackLayout>

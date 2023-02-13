@@ -33,8 +33,15 @@ namespace WolvesVNTeam.GUI.MainUITabbed
                 return true; // runs again, or false to stop
             });
             onClick();
-            imgAvatar.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
-            //logo_wol.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
+            if (Constants.IS_VIP)
+            {
+                imgAvatar.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo-vip.png");
+            }
+            else
+            {
+                imgAvatar.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
+            }
+            logo_wol.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
         }
 
         private void loadInfo()
@@ -44,7 +51,7 @@ namespace WolvesVNTeam.GUI.MainUITabbed
                 txtName.Text = _account.FirstName + " " + _account.LastName;
             }
             txtID.Text = "ID: " + _account.Id;
-            //txtWolves.Text = _account.Wolves.ToString();
+            txtWolves.Text = _account.Wolves.ToString();
         }
 
         private void onClick()

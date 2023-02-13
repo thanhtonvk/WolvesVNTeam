@@ -4,7 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WolvesVNTeam.GUI.TradingViewUI" BackgroundColor="White">
     <ContentPage.Content>
-        <ScrollView Orientation="Vertical" Margin="0,40,0,0">
+        <ScrollView Orientation="Vertical" Margin="0,0,0,0">
             <StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="5,5,5,5">
                     <Label x:Name="btnBack" Text="Trở về" TextColor="DodgerBlue" FontSize="20" HorizontalOptions="StartAndExpand" />

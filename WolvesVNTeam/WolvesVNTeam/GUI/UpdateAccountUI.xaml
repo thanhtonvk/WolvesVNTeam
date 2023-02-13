@@ -6,7 +6,7 @@
              BackgroundColor="#15152B">
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
-            <StackLayout Margin="0,20,0,0">
+            <StackLayout Margin="0,0,0,0">
                 <Grid Margin="0,20,0,0"
                       HorizontalOptions="FillAndExpand"
                       VerticalOptions="FillAndExpand">

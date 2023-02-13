@@ -11,11 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\logo-vip.png" />
     <None Remove="Assets\logo.png" />
     <None Remove="Toasts.Forms.Plugin" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\logo-vip.png" />
     <EmbeddedResource Include="Assets\logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -43,6 +45,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="GUI\MainUI.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\MainUITabbed\NewUITabbed\VideoUI.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="GUI\RegisterUI.xaml">

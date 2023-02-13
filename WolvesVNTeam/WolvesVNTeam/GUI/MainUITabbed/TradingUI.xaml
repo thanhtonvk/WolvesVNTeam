@@ -5,7 +5,7 @@
              x:Class="WolvesVNTeam.GUI.MainUITabbed.TradingUI"
              BackgroundColor="#0D0D2A">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Margin="0,40,0,0">
+        <StackLayout Orientation="Vertical" Margin="0,0,0,0">
             <StackLayout Orientation="Horizontal">
                 <Image x:Name="imgAvatar" HeightRequest="80" WidthRequest="80" Source="/Assets/logo.png"
                        Margin="5,5,5,5" />
@@ -13,10 +13,10 @@
                 <StackLayout Orientation="Vertical" VerticalOptions="Center">
                     <Label Text="Tên" x:Name="txtName" TextColor="White" />
                     <Label Text="ID: " TextColor="Red" x:Name="txtID" />
-                    <!--<StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
                         <Image x:Name="logo_wol" Source="/Assets/logo.png" WidthRequest="20" />
                         <Label Text="Wolves: " TextColor="Orange" x:Name="txtWolves" />
-                    </StackLayout>-->
+                    </StackLayout>
 
                 </StackLayout>
             </StackLayout>

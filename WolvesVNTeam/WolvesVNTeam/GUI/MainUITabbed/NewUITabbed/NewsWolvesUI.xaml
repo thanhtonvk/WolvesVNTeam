@@ -5,7 +5,7 @@
              x:Class="WolvesVNTeam.GUI.MainUITabbed.NewUITabbed.NewsWolvesUI"
              BackgroundColor="#0D0D2A">
     <ContentPage.Content>
-        <StackLayout Margin="0,40,0,0">
+        <StackLayout Margin="0,0,0,0">
             <ListView x:Name="ListViewWolvesNews" VerticalOptions="Fill" HasUnevenRows="True" BackgroundColor="#15152B">
                 <ListView.ItemTemplate>
                     <DataTemplate>

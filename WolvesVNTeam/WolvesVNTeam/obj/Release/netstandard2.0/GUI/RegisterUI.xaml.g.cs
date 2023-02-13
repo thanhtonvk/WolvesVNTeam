@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/RegisterUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\RegisterUI.xaml")]
     public partial class RegisterUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

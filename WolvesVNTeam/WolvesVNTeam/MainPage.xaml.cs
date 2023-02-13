@@ -9,7 +9,7 @@ namespace WolvesVNTeam
         public MainPage()
         {
             InitializeComponent();
-            Thread.Sleep(1500);
+         
             Navigation.PushModalAsync(new LoginUI());
         }
 

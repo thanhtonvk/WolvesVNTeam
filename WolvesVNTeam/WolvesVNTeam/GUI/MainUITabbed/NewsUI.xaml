@@ -9,4 +9,5 @@
     <local:NewsNormalUI Title="Tin tức" />
     <local:NewsWolvesUI Title="Tin tức Wolves" />
     <local:SanGiaoDichUI Title="WolvesVN EA" />
+    <local:VideoUI Title="Video"/>
 </TabbedPage>

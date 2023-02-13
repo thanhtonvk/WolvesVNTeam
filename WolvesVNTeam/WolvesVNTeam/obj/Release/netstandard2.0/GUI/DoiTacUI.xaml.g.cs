@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/DoiTacUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\DoiTacUI.xaml")]
     public partial class DoiTacUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/MainUITabbed/NewUITabbed/SanGiaoDichUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\MainUITabbed\\NewUITabbed\\SanGiaoDichUI.xaml")]
     public partial class SanGiaoDichUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

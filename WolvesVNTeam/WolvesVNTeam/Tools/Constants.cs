@@ -14,6 +14,7 @@ namespace WolvesVNTeam.Tools
         public static string SYMBOL;
         public static NewsWolves NEWSWOLVES;
         public static Contact CONTACT;
+        public static VideoNews NEWSVIDEO;
         public static string getPercent(float current, float prev)
         {
             return string.Format("{0:0.000}", (current - prev) / prev * 100) + "%";

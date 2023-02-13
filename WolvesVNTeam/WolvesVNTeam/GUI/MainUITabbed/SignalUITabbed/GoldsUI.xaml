@@ -15,16 +15,10 @@
                                     <StackLayout>
                                         <Label Text="{Binding GetDate}" VerticalOptions="Center" HorizontalOptions="Fill"
                                                TextColor="White" />
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="Bán ra: " TextColor="White" />
-                                            <Label Text="{Binding SoldOut}" FontAttributes="Bold" TextColor="White" />
-                                            <Label Text="{Binding Symbol}" FontAttributes="Bold" TextColor="White"/>
-                                        </StackLayout>
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="Mua vào: " TextColor="White" />
-                                            <Label Text="{Binding BuyInto}" FontAttributes="Bold" TextColor="White" />
-                                            <Label Text="{Binding Symbol}" FontAttributes="Bold" TextColor="White"/>
-                                        </StackLayout>
+                              
+                                        <Label Text="{Binding Symbol}" VerticalOptions="Center"
+                                               HorizontalOptions="Fill"
+                                               TextColor="White" FontAttributes="Bold"/>
                                     </StackLayout>
                                 </Frame>
                             </StackLayout>

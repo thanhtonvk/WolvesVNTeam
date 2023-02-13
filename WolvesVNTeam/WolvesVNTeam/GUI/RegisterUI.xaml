@@ -23,24 +23,24 @@
                             <Label Text="Email" TextType="Text" FontSize="18" TextColor="White" />
                             <Entry x:Name="txtEmail" Placeholder="Nhập địa chỉ email" Text=""
                                    HeightRequest="40" Keyboard="Email"
-                                   PlaceholderColor="DarkGray" />
+                                   PlaceholderColor="DarkGray" TextColor="White"/>
                             <Label Text="Mật khẩu" TextType="Text" FontSize="18" TextColor="White" />
                             <Entry x:Name="txtPassword" Placeholder="Nhập mật khẩu" Text="" HeightRequest="40"
-                                   PlaceholderColor="DarkGray" IsPassword="True" />
+                                   PlaceholderColor="DarkGray" IsPassword="True" TextColor="White"/>
                             <Label Text="Nhập lại mật khẩu" TextType="Text" FontSize="18" TextColor="White" />
                             <Entry x:Name="txtEntryPassword" Placeholder="Nhập lại mật khẩu" Text=""
                                    HeightRequest="40"
-                                   PlaceholderColor="DarkGray" IsPassword="True" />
+                                   PlaceholderColor="DarkGray" IsPassword="True" TextColor="White"/>
                             <Label Text="Số điện thoại" TextColor="White" FontSize="18" TextType="Text" />
                             <Entry x:Name="txtPhoneNumber" Placeholder="Nhập số điện thoại" Text=""
                                    HeightRequest="40" Keyboard="Telephone"
-                                   PlaceholderColor="DarkGray" />
+                                   PlaceholderColor="DarkGray" TextColor="White"/>
                             <Label Text="Họ" TextColor="White" FontSize="18" TextType="Text" />
                             <Entry x:Name="txtFirstName" Placeholder="Nhập họ" Text="" HeightRequest="40"
-                                   PlaceholderColor="DarkGray" />
+                                   PlaceholderColor="DarkGray" TextColor="White"/>
                             <Label Text="Tên" TextColor="White" FontSize="18" TextType="Text" />
                             <Entry x:Name="txtLastName" Placeholder="Nhập tên" Text="" HeightRequest="40"
-                                   PlaceholderColor="DarkGray" />
+                                   PlaceholderColor="DarkGray" TextColor="White"/>
                             <!--<Label Text="Ngày sinh" TextColor="White" FontSize="18" TextType="Text" />-->
                             <!--<DatePicker x:Name="txtDatePicker" HeightRequest="40" />-->
                             <Button x:Name="btnRegister" Margin="0,20,0,0" Text="Đăng ký tài khoản"

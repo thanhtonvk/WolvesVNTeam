@@ -57,34 +57,40 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
         }
         private async void loadLastSignal()
         {
-
-            var result = await _newsService.GetNews(false);
-            if (result.IsSuccessStatusCode)
+            try
             {
-                var jsonString = await result.Content.ReadAsStringAsync();
-
-                listDic = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(jsonString);
-                if (listDic.Count > _newsList.Count)
+                var result = await _newsService.GetNews(false);
+                if (result.IsSuccessStatusCode)
                 {
-                    _newsList.Clear();
+                    var jsonString = await result.Content.ReadAsStringAsync();
 
-                    foreach (var dic in listDic)
+                    listDic = JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(jsonString);
+                    if (listDic.Count > _newsList.Count)
                     {
-                        _newsList.Add(new News()
+                        _newsList.Clear();
+
+                        foreach (var dic in listDic)
                         {
-                            Id = int.Parse(dic["Id"]),
-                            Date = dic["Date"].Split('T')[0],
-                            Time = dic["Time"],
-                            Content = dic["Content"]
-                        });
+                            _newsList.Add(new News()
+                            {
+                                Id = int.Parse(dic["Id"]),
+                                Date = dic["Date"].Split('T')[0],
+                                Time = dic["Time"],
+                                Content = dic["Content"]
+                            });
+                        }
+
+                        var obj = _newsList[0];
+                        Constants.pushNotifications("Tin tức", obj.Content);
+                        ListViewNews.ItemsSource = _newsList;
                     }
 
-                    var obj = _newsList[0];
-                    Constants.pushNotifications("Tin tức", obj.Content);
-                    ListViewNews.ItemsSource = _newsList;
                 }
-
+            }catch(Exception ex)
+            {
+                loadLastSignal();
             }
+            
 
 
         }

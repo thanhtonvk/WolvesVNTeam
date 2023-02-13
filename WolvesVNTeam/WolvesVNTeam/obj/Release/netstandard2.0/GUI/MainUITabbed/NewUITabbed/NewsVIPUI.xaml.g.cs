@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/MainUITabbed/NewUITabbed/NewsVIPUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\MainUITabbed\\NewUITabbed\\NewsVIPUI.xaml")]
     public partial class NewsVIPUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

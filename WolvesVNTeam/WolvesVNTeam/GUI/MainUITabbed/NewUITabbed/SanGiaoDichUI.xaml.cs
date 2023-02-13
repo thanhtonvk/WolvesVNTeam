@@ -53,23 +53,30 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
         }
         private async void loadLastSignal()
         {
-
-            var result = await new SanGiaoDichService().Get();
-            if (result.IsSuccessStatusCode)
+            try
             {
-                var jsonString = await result.Content.ReadAsStringAsync();
-
-                var temp = JsonConvert.DeserializeObject<List<SanGiaoDich>>(jsonString);
-                if (temp.Count > _sanGiaoDiches.Count)
+                var result = await new SanGiaoDichService().Get();
+                if (result.IsSuccessStatusCode)
                 {
-                    var obj = temp[0];
-                    Constants.pushNotifications("WolvesVN EA", obj.Titile);
-                    _sanGiaoDiches = temp;
-                    ListViewNews.ItemsSource = null;
-                    ListViewNews.ItemsSource = _sanGiaoDiches;
-                }
+                    var jsonString = await result.Content.ReadAsStringAsync();
 
+                    var temp = JsonConvert.DeserializeObject<List<SanGiaoDich>>(jsonString);
+                    if (temp.Count > _sanGiaoDiches.Count)
+                    {
+                        var obj = temp[0];
+                        Constants.pushNotifications("WolvesVN EA", obj.Titile);
+                        _sanGiaoDiches = temp;
+                        ListViewNews.ItemsSource = null;
+                        ListViewNews.ItemsSource = _sanGiaoDiches;
+                    }
+
+                }
             }
+            catch
+            {
+                loadLastSignal();
+            }
+
 
 
         }

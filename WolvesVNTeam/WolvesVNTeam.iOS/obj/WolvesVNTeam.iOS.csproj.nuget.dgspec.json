@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj": {}
+    "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.iOS\\WolvesVNTeam.iOS.csproj": {}
   },
   "projects": {
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj": {
+    "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.iOS\\WolvesVNTeam.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
+        "projectUniqueName": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.iOS\\WolvesVNTeam.iOS.csproj",
         "projectName": "WolvesVNTeam.iOS",
-        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
-        "packagesPath": "/Users/tondz/.nuget/packages/",
-        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/",
+        "projectPath": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.iOS\\WolvesVNTeam.iOS.csproj",
+        "packagesPath": "C:\\Users\\TonDZ\\.nuget\\packages\\",
+        "outputPath": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/tondz/.config/NuGet/NuGet.Config"
+          "C:\\Users\\TonDZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
-                "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj"
+              "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.csproj": {
+                "projectPath": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.csproj"
               }
             }
           }
@@ -75,23 +81,29 @@
         }
       }
     },
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+    "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "projectUniqueName": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.csproj",
         "projectName": "WolvesVNTeam",
-        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
-        "packagesPath": "/Users/tondz/.nuget/packages/",
-        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/obj/",
+        "projectPath": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam.csproj",
+        "packagesPath": "C:\\Users\\TonDZ\\.nuget\\packages\\",
+        "outputPath": "F:\\WolvesVNTeam\\WolvesVNTeam\\WolvesVNTeam\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/tondz/.config/NuGet/NuGet.Config"
+          "C:\\Users\\TonDZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -155,11 +167,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

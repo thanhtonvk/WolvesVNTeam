@@ -5,7 +5,7 @@
              x:Class="WolvesVNTeam.GUI.MainUITabbed.StatitiscsUI"
              BackgroundColor="#0D0D2A">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Margin="0,40,0,0">
+        <StackLayout Orientation="Vertical" Margin="0,0,0,0">
             <Frame OutlineColor="Transparent" BackgroundColor="#15152B" CornerRadius="10">
                 <StackLayout Orientation="Vertical">
                     <Grid>

@@ -45,23 +45,29 @@ namespace WolvesVNTeam.GUI.MainUITabbed.NewUITabbed
         }
         private async void loadLastSignal()
         {
-
-            var result = await _newsService.GetNewsWolves();
-            if (result.IsSuccessStatusCode)
+            try
             {
-                var jsonString = await result.Content.ReadAsStringAsync();
-
-                var temp = JsonConvert.DeserializeObject<List<NewsWolves>>(jsonString);
-                if (temp.Count > _wolvesList.Count)
+                var result = await _newsService.GetNewsWolves();
+                if (result.IsSuccessStatusCode)
                 {
-                    var obj = temp[0];
-                    Constants.pushNotifications("Bản tin WolvesVN", obj.Titile);
-                    _wolvesList = temp;
-                    ListViewWolvesNews.ItemsSource = null;
-                    ListViewWolvesNews.ItemsSource = _wolvesList;
-                }
+                    var jsonString = await result.Content.ReadAsStringAsync();
 
+                    var temp = JsonConvert.DeserializeObject<List<NewsWolves>>(jsonString);
+                    if (temp.Count > _wolvesList.Count)
+                    {
+                        var obj = temp[0];
+                        Constants.pushNotifications("Bản tin WolvesVN", obj.Titile);
+                        _wolvesList = temp;
+                        ListViewWolvesNews.ItemsSource = null;
+                        ListViewWolvesNews.ItemsSource = _wolvesList;
+                    }
+
+                }
+            }catch(Exception ex)
+            {
+                loadLastSignal();
             }
+           
 
 
         }

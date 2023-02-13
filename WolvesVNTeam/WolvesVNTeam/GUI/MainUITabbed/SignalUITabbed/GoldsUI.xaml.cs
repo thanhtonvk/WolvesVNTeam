@@ -30,6 +30,15 @@ namespace WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed
                 loadLastSignal();
                 return true; // runs again, or false to stop
             });
+            ListViewGold.ItemSelected += ListViewGold_ItemSelected; 
+        }
+
+        private void ListViewGold_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = (Gold)e.SelectedItem;
+            Constants.NEWSWOLVES = new NewsWolves();
+            Constants.NEWSWOLVES.Content = item.Content;
+            Navigation.PushModalAsync(new DetailsNewsWolvesUI());
         }
 
         private async void loadSignal()
@@ -44,21 +53,27 @@ namespace WolvesVNTeam.GUI.MainUITabbed.SignalUITabbed
         }
         private async void loadLastSignal()
         {
-            var result = await new GoldService().GetGolds();
-            if (result.IsSuccessStatusCode)
+            try
             {
-                var jsonString = await result.Content.ReadAsStringAsync();
-                var temp = JsonConvert.DeserializeObject<List<Gold>>(jsonString);
-                if (temp.Count > _goldList.Count)
+                var result = await new GoldService().GetGolds();
+                if (result.IsSuccessStatusCode)
                 {
-                    var obj = temp[0];
-                    string content = $"{obj.Symbol}\nMua vào: {obj.BuyInto}\nBán ra: {obj.SoldOut}";
-                    Constants.pushNotifications("Thông báo WolvesVN AUX/GOLD", content);
-                    _goldList = temp;
-                    ListViewGold.ItemsSource = null;
-                    ListViewGold.ItemsSource = _goldList;
+                    var jsonString = await result.Content.ReadAsStringAsync();
+                    var temp = JsonConvert.DeserializeObject<List<Gold>>(jsonString);
+                    if (temp.Count > _goldList.Count)
+                    {
+                        var obj = temp[0];
+                        Constants.pushNotifications("Thông báo WolvesVN AUX/GOLD", obj.Symbol);
+                        _goldList = temp;
+                        ListViewGold.ItemsSource = null;
+                        ListViewGold.ItemsSource = _goldList;
+                    }
                 }
+            }catch(Exception ex)
+            {
+                loadLastSignal();
             }
+            
         }
     }
 }

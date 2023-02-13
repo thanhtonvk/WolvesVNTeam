@@ -21,8 +21,16 @@ namespace WolvesVNTeam.GUI.MainUITabbed
             _accountService = new AccountService();
             loadInfo();
             onClick();
-            imgAvatar.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
-            //logo_wol.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
+            if(Constants.IS_VIP)
+            {
+                imgAvatar.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo-vip.png");
+            }
+            else
+            {
+                imgAvatar.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
+            }
+           
+            logo_wol.Source = ImageSource.FromResource("WolvesVNTeam.Assets.logo.png");
         }
 
         private void loadInfo()
@@ -33,14 +41,14 @@ namespace WolvesVNTeam.GUI.MainUITabbed
             }
            
             txtID.Text = "ID: " + _account.Id;
-            //txtWolves.Text = _account.Wolves.ToString();
+            txtWolves.Text = _account.Wolves.ToString();
         }
 
         private void onClick()
         {
             btnUpdate.Clicked += BtnUpdateOnClicked;
-            // btnLoadWol.Clicked+= BtnLoadWolOnClicked;
-            // btnRegisterVIP.Clicked+= BtnRegisterVIPOnClicked;
+            btnLoadWol.Clicked+= BtnLoadWolOnClicked;
+            btnRegisterVIP.Clicked+= BtnRegisterVIPOnClicked;
             btnDoiTac.Clicked+= BtnDoiTacOnClicked;
             btnLienHe.Clicked+= BtnLienHeOnClicked;
             btnChangePass.Clicked+= BtnChangePassOnClicked;

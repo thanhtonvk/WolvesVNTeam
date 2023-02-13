@@ -25,10 +25,10 @@
                             <Label Text="Email" TextType="Text" FontSize="18" TextColor="White" />
                             <Entry Text="" x:Name="txtEmail" Placeholder="Nhập địa chỉ email" HeightRequest="40"
                                    Keyboard="Email"
-                                   PlaceholderColor="GhostWhite" />
+                                   PlaceholderColor="GhostWhite" TextColor="White"/>
                             <Label Text="Mật khẩu" TextType="Text" FontSize="18" TextColor="White" />
                             <Entry Text="" x:Name="txtPassword" Placeholder="Nhập mật khẩu" HeightRequest="40"
-                                   PlaceholderColor="GhostWhite" IsPassword="True" />
+                                   PlaceholderColor="GhostWhite" IsPassword="True" TextColor="White"/>
                             <Label x:Name="TxtForgot" Text="Quên mật khẩu" HorizontalOptions="End"
                                    FontAttributes="Bold" TextColor="White" />
 

@@ -13,7 +13,7 @@
 namespace WolvesVNTeam.GUI {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI/LoadWolUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\LoadWolUI.xaml")]
     public partial class LoadWolUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
