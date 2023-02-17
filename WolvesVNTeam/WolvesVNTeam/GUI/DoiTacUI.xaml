@@ -6,6 +6,10 @@
              BackgroundColor="#15152B">
     <ContentPage.Content >
         <StackLayout Margin="0,20,0,0">
+             <StackLayout.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped_1"/>
+                </StackLayout.GestureRecognizers>
             <Frame OutlineColor="Transparent" BackgroundColor="#0D0D2A">
 
                 <Label x:Name="btnBack" Text="Trở về" VerticalOptions="Center" FontAttributes="Bold" FontSize="Medium"

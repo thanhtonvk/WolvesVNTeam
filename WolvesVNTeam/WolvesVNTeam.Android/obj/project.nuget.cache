@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aSuOCBYE9sx5SbsuC2N9NWah6S0oWr3p/gWbiImlJTqvvdElzhPNs9S6ulxzrEYHOzAaw8JvohaGwg52IRY9lg==",
+  "dgSpecHash": "pz+4vX3Qs5rbjtLYl7Jh8RIGQqSFurJkgucGsDBy5xC6MJmrY2W/nSI4epnkUQDZByQl482Bgv/S1crzdrdNdQ==",
   "success": true,
-  "projectFilePath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
+  "projectFilePath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
   "expectedPackageFiles": [
     "/Users/tondz/.nuget/packages/acr.userdialogs/7.2.0.534/acr.userdialogs.7.2.0.534.nupkg.sha512",
     "/Users/tondz/.nuget/packages/andhud/1.4.3/andhud.1.4.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ap27aLrNoPEEnwk/lcpum37tPdwkTUD6fgOz2rkKuCzJDLeBt4nJJ8JNf64JQFaAQwY9LN+HvUZKK8klwysnqw==",
+  "dgSpecHash": "r0Iy8DvdhhXW/LIzPxPd56YpeGergjs2j3w7SIz6JRZ7wZSufn8PM2bkdAhRG9g9ZKrS1iOf2wk4liKQZAtovg==",
   "success": true,
-  "projectFilePath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
+  "projectFilePath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/WolvesVNTeam.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/tondz/.nuget/packages/acr.userdialogs/7.2.0.534/acr.userdialogs.7.2.0.534.nupkg.sha512",
     "/Users/tondz/.nuget/packages/btprogresshud/1.3.4/btprogresshud.1.3.4.nupkg.sha512",

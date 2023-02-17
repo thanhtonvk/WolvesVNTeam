@@ -108,7 +108,15 @@ namespace WolvesVNTeam.GUI
             htmlSource.Html = htmlText;
             webViewTrading.Source = htmlSource;
         }
+        void SwipeGestureRecognizer_Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
 
+        void SwipeGestureRecognizer_Swiped_1(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
         private async void loadCurrentAndPrev()
         {
             var result = await _symbolService.GetCurrentAndPrev(Constants.SYMBOL);

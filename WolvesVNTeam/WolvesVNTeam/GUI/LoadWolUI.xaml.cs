@@ -51,6 +51,15 @@ namespace WolvesVNTeam.GUI
          
             loadWol(int.Parse(Amount));
         }
+        void SwipeGestureRecognizer_Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
+
+        void SwipeGestureRecognizer_Swiped_1(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
 
         private async void loadWol(int amount)
         {
@@ -58,7 +67,7 @@ namespace WolvesVNTeam.GUI
             string message =
                 $"Hãy chuyển {Constants.formatMoney(amount * 24000)} tới\nSTK:{Constants.CONTACT.STK}\nNgân hàng: {Constants.CONTACT.Bank}\nChủ tài khoản: {Constants.CONTACT.NameBank}\nNội dung chuyển khoản: LOADWOL {_account.Id} {amount}";
           
-            DisplayAlert("Yêu cầu nạp thành công",
+            await DisplayAlert("Yêu cầu nạp thành công",
                 message,
                 "OK");
         }

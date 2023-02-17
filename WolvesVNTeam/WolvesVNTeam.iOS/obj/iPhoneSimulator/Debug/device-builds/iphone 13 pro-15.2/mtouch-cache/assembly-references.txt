@@ -1,4 +1,4 @@
-/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/bin/iPhoneSimulator/Debug/WolvesVNTeam.iOS.exe
+/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/bin/iPhoneSimulator/Debug/WolvesVNTeam.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.10.0.5/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.10.0.5/lib/mono/Xamarin.iOS/../../64bits/iOS/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.10.0.5/lib/mono/Xamarin.iOS/System.dll
@@ -27,7 +27,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.10.0.5/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.10.0.5/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.10.0.5/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll
-/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/bin/Debug/netstandard2.0/WolvesVNTeam.dll
+/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/bin/Debug/netstandard2.0/WolvesVNTeam.dll
 /Users/tondz/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/tondz/.nuget/packages/acr.userdialogs/7.2.0.534/lib/xamarinios10/Acr.UserDialogs.dll
 /Users/tondz/.nuget/packages/btprogresshud/1.3.4/lib/xamarinios10/BTProgressHUD.dll

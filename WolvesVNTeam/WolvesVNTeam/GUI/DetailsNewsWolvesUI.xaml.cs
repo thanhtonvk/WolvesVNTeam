@@ -30,5 +30,15 @@ namespace WolvesVNTeam.GUI
                 Command = new Command(o => { Application.Current.MainPage.Navigation.PopModalAsync(); })
             });
         }
+        void SwipeGestureRecognizer_Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
+
+        void SwipeGestureRecognizer_Swiped_1(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
+        
     }
 }

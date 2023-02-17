@@ -39,6 +39,15 @@ namespace WolvesVNTeam.GUI
             btnBack.Clicked += BtnBackOnClicked;
             btnUpdate.Clicked += BtnUpdateOnClicked;
         }
+        void SwipeGestureRecognizer_Swiped(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
+
+        void SwipeGestureRecognizer_Swiped_1(System.Object sender, Xamarin.Forms.SwipedEventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PopModalAsync();
+        }
 
         private async void BtnUpdateOnClicked(object sender, EventArgs e)
         {

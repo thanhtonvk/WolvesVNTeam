@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {}
+    "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {}
   },
   "projects": {
-    "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+    "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "projectUniqueName": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
         "projectName": "WolvesVNTeam",
-        "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
+        "projectPath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj",
         "packagesPath": "/Users/tondz/.nuget/packages/",
-        "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/obj/",
+        "outputPath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tondz/.config/NuGet/NuGet.Config"

@@ -6,6 +6,10 @@
     <ContentPage.Content>
         <ScrollView Orientation="Vertical" Margin="0,40,0,0">
             <StackLayout>
+                 <StackLayout.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped_1"/>
+                </StackLayout.GestureRecognizers>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="5,5,5,5">
                     <Label x:Name="btnBack" Text="Trở về" TextColor="DodgerBlue" FontSize="20" HorizontalOptions="StartAndExpand" />
                     

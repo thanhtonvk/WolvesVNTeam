@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ic50bPB2STMwRV8aXmW97YV1ChI=
+		f53dHyyZE2GhHz7rVk95ppcD+qk=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -274,19 +274,19 @@
 		</data>
 		<key>WolvesVNTeam.dll</key>
 		<data>
-		4Qkyd1232vhTW24rW0gzizWmJrs=
+		aTFkP0kgVMO0VoePlqAySeNt05w=
 		</data>
 		<key>WolvesVNTeam.iOS.exe</key>
 		<data>
-		vkrjK8+HTci+lRBEm3DoyAizAaI=
+		JorT1zhbM8qSVfqvw3tpzLI+3MQ=
 		</data>
 		<key>WolvesVNTeam.iOS.pdb</key>
 		<data>
-		QMzDiuqI8Fj9ritU0oYDrXC65Fc=
+		6IgWJczXf128fs3uepC5PD4dINU=
 		</data>
 		<key>WolvesVNTeam.pdb</key>
 		<data>
-		D4vOrcbCOUIKXQg6yX4Ll2B/w+4=
+		2TEEFEmPemXCKMFXy6GQKJyo3q0=
 		</data>
 		<key>Xamarin.Essentials.dll</key>
 		<data>
@@ -330,7 +330,7 @@
 		</data>
 		<key>Xamarin.iOS.pdb</key>
 		<data>
-		cKv3N1O2ThRpz3yydkg1gXubM9M=
+		bCHorelZVcFA0N8iVH5E6RQ+sWI=
 		</data>
 		<key>ar/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -1206,44 +1206,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Qkyd1232vhTW24rW0gzizWmJrs=
+			aTFkP0kgVMO0VoePlqAySeNt05w=
 			</data>
 			<key>hash2</key>
 			<data>
-			IN4F5dkv1VJemnHseOwyDm6gM1PpHwTldvoIaUZ4zUw=
+			w10V8KVB4/9yvcNjrI9hhSqwbO8GVJfetbCOjSEe83w=
 			</data>
 		</dict>
 		<key>WolvesVNTeam.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vkrjK8+HTci+lRBEm3DoyAizAaI=
+			JorT1zhbM8qSVfqvw3tpzLI+3MQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			e8YfaYR4gWOn+J7GNw0q0WJwRNQYRPp9Jr9qpZST8Vk=
+			5dVoGcY1BsuC0V+rz2Aw/fP9ZJ59M2iIRxlS5QJ+m3c=
 			</data>
 		</dict>
 		<key>WolvesVNTeam.iOS.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QMzDiuqI8Fj9ritU0oYDrXC65Fc=
+			6IgWJczXf128fs3uepC5PD4dINU=
 			</data>
 			<key>hash2</key>
 			<data>
-			PflGghkQY/ZWuw5MnxKxo0S396PKCKrIX69f8dibklY=
+			I3rnl5XMuhlSS7NQaWQXHFKsrAIwGtjwaCP0I8UCxoU=
 			</data>
 		</dict>
 		<key>WolvesVNTeam.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D4vOrcbCOUIKXQg6yX4Ll2B/w+4=
+			2TEEFEmPemXCKMFXy6GQKJyo3q0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ltX8e7znA2l8nlAqerrkRHAeTPaUHiiizV0L+RLhuTc=
+			ZcUyK/YiB1IYeVLyxdSEC2QI55hdBOtSOOiYaCXWQuY=
 			</data>
 		</dict>
 		<key>Xamarin.Essentials.dll</key>
@@ -1360,11 +1360,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cKv3N1O2ThRpz3yydkg1gXubM9M=
+			bCHorelZVcFA0N8iVH5E6RQ+sWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LEJaqjoeTeZCbmxYb4Rfn/HBOyaxhSXs5xdikuJC79g=
+			1W//ha6G2FSceZ0MGGLKanVN9fR5A8twH7kdbf4LS/s=
 			</data>
 		</dict>
 		<key>ar/Xamarin.Forms.Platform.iOS.resources.dll</key>

@@ -2,17 +2,17 @@
 --sgen-conc
 /target-framework:Xamarin.iOS,Version=v1.0
 --http-message-handler=NSUrlSessionHandler
-"--cache=/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/mtouch-cache"
---root-assembly=/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/bin/iPhoneSimulator/Debug/WolvesVNTeam.iOS.exe
+"--cache=/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/mtouch-cache"
+--root-assembly=/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/bin/iPhoneSimulator/Debug/WolvesVNTeam.iOS.exe
 --sdkroot=/Applications/Xcode.app/Contents/Developer
 --targetver=8.0
-"--sim=/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/WolvesVNTeam.iOS.app"
+"--sim=/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/WolvesVNTeam.iOS.app"
 --executable=WolvesVNTeam.iOS
 --linksdkonly
 --sdk=15.2
 --aot-options=-O=-float32
 --abi=x86_64
-"--symbollist=/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/mtouch-symbols.list"
+"--symbollist=/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/mtouch-symbols.list"
 --dsym=no
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
@@ -24,7 +24,7 @@
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
---reference=/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/bin/Debug/netstandard2.0/WolvesVNTeam.dll
+--reference=/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/bin/Debug/netstandard2.0/WolvesVNTeam.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll
@@ -247,4 +247,4 @@
 --reference=/Users/tondz/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 --reference=/Users/tondz/.nuget/packages/xamarin.forms.pancakeview/2.3.0.759/lib/xamarinios10/Xamarin.Forms.PancakeView.dll
 --reference=/Users/tondz/.nuget/packages/xamarin.hotreload/2.0.16/lib/netstandard2.0/Xamarin.Forms.HotReload.Reloader.dll
---reference=/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/bin/Debug/netstandard2.0/WolvesVNTeam.dll
+--reference=/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/bin/Debug/netstandard2.0/WolvesVNTeam.dll

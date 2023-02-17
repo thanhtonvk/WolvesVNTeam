@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS</SourceProjectPath>
+      <SourceProjectPath>/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

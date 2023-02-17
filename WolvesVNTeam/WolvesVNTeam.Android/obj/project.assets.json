@@ -4404,11 +4404,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
+      "projectUniqueName": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
       "projectName": "WolvesVNTeam.Android",
-      "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
+      "projectPath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/WolvesVNTeam.Android.csproj",
       "packagesPath": "/Users/tondz/.nuget/packages/",
-      "outputPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/obj/",
+      "outputPath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -4423,8 +4423,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
-              "projectPath": "/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj"
+            "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj": {
+              "projectPath": "/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.csproj"
             }
           }
         }

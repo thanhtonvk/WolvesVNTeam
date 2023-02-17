@@ -9,7 +9,7 @@
       <dSYMInfoPlistRelativePath>WolvesVNTeam.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
       <SymbolFile>obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/mtouch-symbols.list</SymbolFile>
       <DSymName>WolvesVNTeam.iOS.app.dSYM</DSymName>
-      <SourceProjectPath>/Volumes/Data/Source/WolfTeam/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS</SourceProjectPath>
+      <SourceProjectPath>/Volumes/Data/Source/WolvesVNTeam/WolvesVNTeam/WolvesVNTeam.iOS</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

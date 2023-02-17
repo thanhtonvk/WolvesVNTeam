@@ -7,6 +7,10 @@
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
             <StackLayout>
+                <StackLayout.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped_1"/>
+                </StackLayout.GestureRecognizers>
                 <Image x:Name="Img_Logo" WidthRequest="150" Margin="0,30,0,0" Source="/Assets/logo.png" />
                 <Label Text="Bạn tốt - Tôi tốt - Chúng ta cùng tốt" TextColor="#FFB400" FontSize="20"
                        HorizontalOptions="Center"

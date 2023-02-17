@@ -7,6 +7,10 @@
     <ContentPage.Content>
         <ScrollView Orientation="Vertical">
             <StackLayout Margin="0,20,0,0">
+                 <StackLayout.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Left" Swiped="SwipeGestureRecognizer_Swiped"/>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped_1"/>
+                </StackLayout.GestureRecognizers>
                 <Grid Margin="0,20,0,0"
                       HorizontalOptions="FillAndExpand"
                       VerticalOptions="FillAndExpand">
